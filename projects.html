@@ -15,62 +15,86 @@
   <div class="ambient ambient-two"></div>
 
   <header class="site-header">
-    <a href="index.html" class="logo">NANDINI<span>.CLOUD</span></a>
-    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+    <a href="index.html" class="logo">Nandini Kumari</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">Menu</button>
     <nav class="nav" id="mainNav">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
-      <a href="skills.html">Skills</a>
       <a class="active" href="projects.html">Projects</a>
+      <a href="skills.html">Other</a>
       <a href="contact.html">Contact</a>
     </nav>
+    <a class="contact-pill" href="contact.html">Contact</a>
   </header>
 
-  <main>
-    <section class="section reveal">
-      <div class="section-head">
-        <h2>Projects</h2>
-        <p>Portfolio highlights from CV links</p>
-      </div>
+  <main class="projects-main">
+    <section class="projects-intro reveal">
+      <p class="projects-kicker">PROJECTS</p>
+      <h1>Real projects with <span>measurable outcomes.</span></h1>
+    </section>
 
-      <div class="project-grid">
-        <article class="project-card">
-          <h3>Monitoring with CloudWatch</h3>
-          <p>
-            Cloud-focused project around monitoring and observability concepts using AWS CloudWatch.
-          </p>
-          <a href="https://github.com/Nandinikumari12/Monitorning-with-cloudwatch" target="_blank" rel="noopener">View Repository</a>
-        </article>
+    <section class="project-list reveal">
+      <article class="project-item">
+        <header>
+          <h3>AWS EC2 Monitoring &amp; Alerting using CloudWatch</h3>
+          <p>Oct 2025</p>
+        </header>
+        <ul>
+          <li>Configured AWS CloudWatch to continuously monitor EC2 CPU utilization and basic system metrics.</li>
+          <li>Configured CloudWatch alarms with SNS notifications to automatically detect high CPU usage and send real-time alerts.</li>
+          <li>Analyzed logs and metrics to assess overall system health and identify potential issues early.</li>
+          <li>Domain: Cloud Monitoring | Tech Stack: AWS EC2, CloudWatch, Amazon SNS, Linux.</li>
+        </ul>
+        <a class="read-more" href="https://github.com/Nandinikumari12/Monitorning-with-cloudwatch" target="_blank" rel="noopener">Project Link</a>
+      </article>
 
-        <article class="project-card">
-          <h3>RecQm</h3>
-          <p>
-            A project exploring recommendation or query-management style workflows for practical use cases.
-          </p>
-          <a href="https://github.com/Nandinikumari12/RecQm" target="_blank" rel="noopener">View Repository</a>
-        </article>
+      <article class="project-item">
+        <header>
+          <h3>Rec-Q Management System - Cloud-Based Emergency Monitoring</h3>
+          <p>Feb 2025</p>
+        </header>
+        <ul>
+          <li>Developed and deployed a cloud-based emergency monitoring system with high availability and rapid response.</li>
+          <li>Implemented alert and incident tracking using Docker and AWS EC2 for secure and scalable performance.</li>
+          <li>Enabled 24x7 monitoring with support for easy integration into existing safety systems.</li>
+          <li>Domain: Cloud Application | Tech Stack: Docker, AWS EC2, Node.js, Nginx.</li>
+        </ul>
+        <a class="read-more" href="https://github.com/Nandinikumari12/RecQm" target="_blank" rel="noopener">Project Link</a>
+      </article>
 
-        <article class="project-card">
-          <h3>Face App</h3>
-          <p>
-            Project involving image or face-related application logic with user-focused interaction.
-          </p>
-          <a href="https://github.com/Nandinikumari12/faceapp1" target="_blank" rel="noopener">View Repository</a>
-        </article>
+      <article class="project-item">
+        <header>
+          <h3>Facial Attendance Management System - AWS AI Application</h3>
+          <p>Aug 2024</p>
+        </header>
+        <ul>
+          <li>Developed an AI-powered, cloud-native attendance system using facial recognition for accurate identity verification.</li>
+          <li>Implemented a serverless architecture using AWS Rekognition, S3, Lambda, and DynamoDB.</li>
+          <li>Automated attendance tracking to reduce manual errors and support secure real-time monitoring.</li>
+          <li>Domain: Cloud &amp; AI Application | Tech Stack: AWS Rekognition, S3, Lambda, DynamoDB.</li>
+        </ul>
+        <a class="read-more" href="https://github.com/Nandinikumari12/faceapp1" target="_blank" rel="noopener">Project Link</a>
+      </article>
 
-        <article class="project-card">
-          <h3>College CGPA</h3>
-          <p>
-            Academic utility project designed to help track, estimate, or manage CGPA performance.
-          </p>
-          <a href="https://github.com/Nandinikumari12/CollegeCGPA" target="_blank" rel="noopener">View Repository</a>
-        </article>
-      </div>
+      <article class="project-item">
+        <header>
+          <h3>College CGPA Viewer</h3>
+          <p>May 2024</p>
+        </header>
+        <ul>
+          <li>Developed a web-based CGPA calculation tool for semester-wise and overall performance tracking.</li>
+          <li>Implemented accurate GPA calculations using user-entered grades and credits.</li>
+          <li>Designed a simple and responsive interface for quick access and usability.</li>
+          <li>Tech Stack: HTML, CSS, JavaScript, JSON.</li>
+        </ul>
+        <a class="read-more" href="https://github.com/Nandinikumari12/CollegeCGPA" target="_blank" rel="noopener">Project Link</a>
+      </article>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>built by nandni</p>
+    <p>Designed and developed by Nandini Kumari.</p>
+    <a href="contact.html">Let us collaborate</a>
   </footer>
 
   <script src="script.js"></script>

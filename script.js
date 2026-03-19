@@ -13,7 +13,10 @@ if (menuToggle && mainNav) {
   });
 }
 
-const roleTexts = ["Cloud Enthusiast", "AWS Learner", "Tech Builder"];
+const roleTexts = [
+  "The best error message is the one that never shows up.",
+  "Building reliable systems with code, cloud, and curiosity.",
+];
 const typingTarget = document.getElementById("typingText");
 let textIndex = 0;
 let charIndex = 0;
